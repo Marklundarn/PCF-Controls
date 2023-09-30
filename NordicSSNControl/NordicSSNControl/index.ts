@@ -117,7 +117,7 @@ export class NordicSSNControl implements ComponentFramework.StandardControl<IInp
 		errorIconLabelElement.classList.add("icon");
 
 		var errorLabelElement = document.createElement("label");
-		errorIconLabelElement.appendChild(document.createTextNode(context.resources.getString("ErrorText_Key")));
+		errorLabelElement.appendChild(document.createTextNode(context.resources.getString("ErrorText_Key")));
 		//errorLabelElement.innerHTML = context.resources.getString("ErrorText_Key");
 
 		this._errorContainer = document.createElement("div");

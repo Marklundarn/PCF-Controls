@@ -52,6 +52,7 @@ div.BeBeControls div.container textarea.incorrect {
 }
 
 div.BeBeControls div.container div.Error{
+    width:100%;
     background-color: rgba(191, 9, 0, 0.075);
     padding: 0.5rem;
     display: inline-flex;
